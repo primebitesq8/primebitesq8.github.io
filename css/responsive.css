@@ -1,0 +1,118 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.about-text p {
+  margin-bottom: 5px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.width-100{width:100%}
+.main-menu ul li a {
+  padding: 40px 7px;
+}
+.portfolio-title span {
+  top: 15px;
+}
+.slider-text a {
+  margin-top: 25px;
+}
+.slider-text h2 {
+  font-size: 40px;
+  margin: 20px 0 15px;
+}
+.single-service {
+  padding: 30px 10px;
+}
+.blog-story {
+  margin-bottom: 50px;
+}
+.about-img {
+  margin-top: 20px;
+}
+.about-text {
+  margin-top: 20px;
+}
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.width-100{width:100%}
+.slider-text span {
+  font-size: 18px;
+}
+.portfolio-menu ul li {
+  padding: 12px 11px;
+}
+.slider-text h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 9px 0;
+}
+.slider-text p {
+  display: none;
+}
+.slider-text a {
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 0;
+  padding: 5px 20px;
+}
+.choose-content p {
+  width: 100%;
+}
+.footer-text {
+  margin-bottom: 40px;
+}
+.copyright {
+  margin-top: 9px;
+  text-align: center;
+}
+.icon {
+  margin-top: 20px;
+  text-align: center;
+}
+.subscribe-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.icon a {
+  margin: 0 4px;
+}
+.footer-info {
+  text-align: left;
+}
+.footer-logo {
+  text-align: left;
+}
+.blog-story {
+  margin-bottom: 50px;
+}
+.about-text {
+  margin-bottom: 30px;
+}
+.about-img {
+  margin-bottom: 20px;
+}
+.single-team {
+  margin-bottom: 30px;
+  position: relative;
+}
+.contact-form {
+  margin-top: 40px;
+}
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+} 
+ 
+
